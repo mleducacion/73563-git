@@ -21,3 +21,11 @@ git commit -m "Escribo un mensaje descriptivo sobre lo que se hizo"
 git log
 git log --oneline
 ```
+
+## Recuperar archivos de las diferentes áreas
+
+```sh
+git restore . # Recupero todo. Me traigo todo lo que esta en el repo local al working directory. Si tengo archivos modificados pierdo la modificaciones.
+git restore <nombre-archivo1> <nombre-archivo2>
+git restore --staged <nombre-archivo> # Me recupera los cambios marcados en el staging area al working directory
+```
