@@ -49,3 +49,17 @@ git remote add origin https://github.com/mleducacion/73563-git.git
 git remote remove <alias>
 git remote remove <origin>
 ```
+
+## Subir los commits al remoto 
+
+```sh
+git push -u origin main # Se van a trackear las ramas origin/main con main (La primera vez)
+```
+
+## Sincronizar el repositorio local con el remoto
+
+```sh
+git push
+```
+
+
