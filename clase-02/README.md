@@ -33,3 +33,19 @@ git restore --staged <nombre-archivo> # Me recupera los cambios marcados en el s
 ## Workflow de trabajo habitual
 
 ![Alt text](workflow-git.png)
+
+## Subiendo el repo local al remoto
+
+### Agregar la url del repo remoto al local
+
+```sh
+git remote add <alias> <url-repositorio-git>
+git remote add origin https://github.com/mleducacion/73563-git.git
+```
+
+### Borrar la url del remoto en el repo local 
+
+```sh
+git remote remove <alias>
+git remote remove <origin>
+```
