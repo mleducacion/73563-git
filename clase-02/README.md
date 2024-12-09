@@ -29,3 +29,7 @@ git restore . # Recupero todo. Me traigo todo lo que esta en el repo local al wo
 git restore <nombre-archivo1> <nombre-archivo2>
 git restore --staged <nombre-archivo> # Me recupera los cambios marcados en el staging area al working directory
 ```
+
+## Workflow de trabajo habitual
+
+![Alt text](workflow-git.png)
