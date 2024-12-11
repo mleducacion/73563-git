@@ -8,3 +8,32 @@ Son archivos que permiten que las carpetas vacías puedan ser parte de un reposi
 
 <https://www.campusmvp.es/recursos/post/que-son-los-archivos-gitkeep-en-git.aspx>
 
+## Ramas (Branches)
+
+### Workflow Reducido
+![workflow-reducido](_ref/workflow-reducido.png)
+
+### Workflow Ampliado
+![workflow-ampliado](_ref/workflow-ampliado.png)
+
+
+### Listar ramas
+
+```sh
+git branch 
+```
+
+### Crear una rama
+
+```sh
+git branch <nombre-rama>
+git branch feature/branches
+```
+
+## Cambiar entre ramas
+
+```sh
+git switch <nombre-ramas>
+git switch feature/branches
+```
+
