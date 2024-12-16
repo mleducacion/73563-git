@@ -1,1 +1,1 @@
-# Esto es el README de la rama 'dev-remoto'
+# Curso Online de Educación IT (Lunes-Miercoles)
