@@ -58,3 +58,11 @@ Me permite fusionar ramas entre si. Logrando así obtener los commit de una rama
 git diff <rama-que-quiero-comparar> # Compara la rama actual contra la rama que indique
 git diff <rama-uno> <rama-dos> # No importa en que rama este parado.
 ```
+
+## Borrando una rama
+
+```sh
+git branch -d <nombre-rama> # Si el contenido de la rama que quiero borrar no fue fusionado con otra rama me va a pedir confirmación
+git branch -D <nombre-rama> # Fuerzo el borrado de la rama, aunque el contenido lo pierda.
+```
+
