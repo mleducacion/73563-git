@@ -58,3 +58,10 @@ Me permite fusionar ramas entre si. Logrando así obtener los commit de una rama
 git diff <rama-que-quiero-comparar> # Compara la rama actual contra la rama que indique
 git diff <rama-uno> <rama-dos> # No importa en que rama este parado.
 ```
+
+## Como subir una rama al remoto
+
+```sh
+git push origin <nombre-rama>
+git push origin feature/branches
+```
