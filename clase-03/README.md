@@ -43,3 +43,13 @@ git switch feature/branches
 git switch -c feature/branches-bis
 ```
 
+## Fusiones (Merge)
+Me permite fusionar ramas entre si. Logrando así obtener los commit de una rama en otra.
+
+### Hay 3 tipos de funsiones
+
+* fast-forward - Automaticas
+* Triple vía (Cuando utiliza alguno de los algoritmos/estrategias) - Automaticas
+* La fusión con conflicto - Manual 
+
+
