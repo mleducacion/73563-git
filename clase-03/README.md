@@ -52,4 +52,9 @@ Me permite fusionar ramas entre si. Logrando así obtener los commit de una rama
 * Triple vía (Cuando utiliza alguno de los algoritmos/estrategias) - Automaticas
 * La fusión con conflicto - Manual 
 
+### Mostrar diferencias entre ramas
 
+```sh
+git diff <rama-que-quiero-comparar> # Compara la rama actual contra la rama que indique
+git diff <rama-uno> <rama-dos> # No importa en que rama este parado.
+```
