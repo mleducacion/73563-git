@@ -37,3 +37,9 @@ git switch <nombre-ramas>
 git switch feature/branches
 ```
 
+## Crear una rama y moverme a esa rama
+
+```sh
+git switch -c feature/branches-bis
+```
+
