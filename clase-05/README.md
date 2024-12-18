@@ -54,7 +54,7 @@ git add --patch
 * n -> No | para no poner ese hunk en el staging
 * s -> split | Divide automanticamente los hunks
 * e -> Manual | Elijo manualmente que líneas quiero que se guarden en staging area
-    * + eso va ir al SA
+    * \+ eso va ir al SA
     * ' ' Si le saco el + esa línea no va a formar parte de lo que guarde en SA
 
 
