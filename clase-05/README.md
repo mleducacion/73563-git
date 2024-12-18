@@ -1,6 +1,13 @@
 # Clase 05 - Git Desarrollo Colaborativo
 
+## Clonar un repositorio remoto en el local
 
+```sh
+# Me crea una carpeta y dentro me clona el respositorio
+git clone https://github.com/mleducacion/proyecto-helado.git 
+# Si quiero que me lo clone en el directorio actual coloco ./
+git clone https://github.com/mleducacion/proyecto-helado.git ./ 
+```
 
 ## Para descargar los commits de una rama en especifico
 
