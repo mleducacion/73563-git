@@ -27,6 +27,21 @@ git pull origin maxi # Me traigo la rama maxi del remoto a la rama maxi local
 ```sh
 git config --global alias.<alias-elegido> "<comando-de-git-sin-la-palabra-git>"
 git config --global alias.s "status --short"
+git config --global alias.l "log --oneline"
+git config --global alias.ll "log --oneline --decorate --all --graph"
+git config --global alias.c "commit -m"
+```
+
+## Quitar un alias
+
+```sh
+git config --global --unset alias.ll
+```
+
+## Listar los alias
+
+```sh
+git config --global --get-regexp alias
 ```
 
 ## Para guardar especificamente parte del código fuente que estoy creando
