@@ -9,6 +9,12 @@ git clone https://github.com/mleducacion/proyecto-helado.git
 git clone https://github.com/mleducacion/proyecto-helado.git ./ 
 ```
 
+## Para descargar la metada
+
+```sh
+git fetch # Me actualiza la carpeta .git
+```
+
 ## Para descargar los commits de una rama en especifico
 
 ```sh
