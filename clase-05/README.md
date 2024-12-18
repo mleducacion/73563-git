@@ -29,3 +29,19 @@ git config --global alias.<alias-elegido> "<comando-de-git-sin-la-palabra-git>"
 git config --global alias.s "status --short"
 ```
 
+## Para guardar especificamente parte del código fuente que estoy creando
+
+```sh
+git add --patch
+```
+
+* y -> YES | Para ponerle el hunk en el staging
+* n -> No | para no poner ese hunk en el staging
+* s -> split | Divide automanticamente los hunks
+* e -> Manual | Elijo manualmente que líneas quiero que se guarden en staging area
+    * + eso va ir al SA
+    * ' ' Si le saco el + esa línea no va a formar parte de lo que guarde en SA
+
+
+
+
