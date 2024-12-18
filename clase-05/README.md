@@ -57,6 +57,6 @@ git add --patch
     * \+ eso va ir al SA
     * ' ' Si le saco el + esa línea no va a formar parte de lo que guarde en SA
 
-
-
+# GIT RESET
+Me permite deshacer un commit o commits (cambios) en el repositorio. Los cambios deshechos se van a colocar en el área de trabajo o el área de staging.
 
