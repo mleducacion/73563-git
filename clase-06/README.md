@@ -37,3 +37,20 @@ Es un comando que permite guardar temporalmente todos los cambios que tenemos ta
 git stash list
 ```
 
+## Recuperar un stash 
+
+1. Pop
+Siempre recupera el último colocado en el stash. Y si no hay conflicto, borra el stash
+
+```sh
+git stash pop
+```
+
+2. Apply
+Le indico cual quiero recuperar. Y el que recupero no se borra de la lista de stash
+
+```sh
+git stash apply 4
+git stash apply stash@{4}
+```
+
