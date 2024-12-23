@@ -28,8 +28,12 @@ git reset <hash>
 git reset --hard <hash>
 ```
 
+# GIT Stash
+Es un comando que permite guardar temporalmente todos los cambios que tenemos tanto en el WD como el SA
+
 ## Listar los stashes
 
 ```sh
 git stash list
 ```
+
