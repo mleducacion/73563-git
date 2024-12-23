@@ -54,3 +54,11 @@ git stash apply 4
 git stash apply stash@{4}
 ```
 
+## Borrar un stash
+
+```sh
+git stash drop # el último
+git stash drop stash@{4} # El 4 indicado
+git stash drop 4 # El 4 indicado
+```
+
