@@ -69,3 +69,46 @@ git stash clear
 ```
 
 **NOTA IMPORTANTE**: Los stashes son solo locales. No se pueden subir al remoto.
+
+# Git Cherry Pick
+Permite selecionar un commit o varios de manera independiente y colocars en otra rama.
+
+## Selecciono un único commit 
+
+```sh
+git cherry-pick <hash>
+```
+
+### Para avanzar en la solución si hay conflicto
+Si hay conflicto, solucionarlo y hacer los siguientes pasos
+
+```sh
+git add .
+```
+
+```sh
+git cherry-pick --continue
+```
+
+### Seleciono varios commits con extremos
+
+```sh
+git cherry-pick <hash>^..<hash>
+```
+
+### Seleciono varios commits sin extremos
+
+```sh
+git cherry-pick <hash>..<hash>
+```
+
+# GITHUB CLI
+Es una herramienta para interacturar con los repositorio remotos de GITHUB.
+
+<https://cli.github.com/>
+
+
+## Contacto
+
+* maxi.principe@gmail.com
+* mlapeducacion@gmail.com
