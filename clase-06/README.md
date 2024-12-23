@@ -62,3 +62,10 @@ git stash drop stash@{4} # El 4 indicado
 git stash drop 4 # El 4 indicado
 ```
 
+## Borrar todos los stashes
+
+```sh
+git stash clear
+```
+
+**NOTA IMPORTANTE**: Los stashes son solo locales. No se pueden subir al remoto.
