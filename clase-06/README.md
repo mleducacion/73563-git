@@ -27,3 +27,9 @@ Va a borrar el commit o los commits seleccionados y descartar el contenido. O se
 git reset <hash>
 git reset --hard <hash>
 ```
+
+## Listar los stashes
+
+```sh
+git stash list
+```
